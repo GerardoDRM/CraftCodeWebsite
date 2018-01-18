@@ -8,9 +8,35 @@ class Home extends Component {
     return (
       <div>
         {/* Top Img */}
+        <div>
+          <h1>Craft Code</h1>
+          <p></p>
+          <div>
+            <img src=""/>
+          </div>
+        </div>
         {/* Services */}
+        <div>
+          <div>
+            <img />
+            <h3></h3>
+            <p></p>
+          </div>
+        </div>
         {/* Projects */}
+        <div>
+          <p></p>
+          <div>
+            <img />
+            <img />
+            <img />
+          </div>
+        </div>
         {/* Funny */}
+        <div>
+          <p></p>
+          <img />
+        </div>
         {/* Footer */}
         <Footer/>
       </div>

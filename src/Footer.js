@@ -6,7 +6,8 @@ class Footer extends Component {
   render() {
     return (
       <div>
-
+        <img/>
+        <img/>
       </div>
     )
   }
