@@ -4,12 +4,17 @@ import { Link } from 'react-router-dom';
 class Footer extends Component {
 
   render() {
+    const logo = require('./static/craftcodelogo.svg');
+
     return (
-      <div>
-        <img/>
-        <img/>
+      <div className="footer">
+        <img src={logo}/>
+        <div>
+          <img/>
+          <img/>
+        </div>
       </div>
     )
   }
 }
-module.exports = Footer;
+export default Footer;

@@ -5,8 +5,18 @@ import Footer from './Footer';
 class Home extends Component {
 
   render() {
+    const logo = require('./static/craftcodelogo.svg');
+
     return (
-      <div>
+      <div className="app">
+      <header>
+        <img src={logo} width="50px" height="100px"/>
+        <div className="tabs">
+          <span>Services</span>
+          <span>Portfolio</span>
+          <span>Contanct</span>
+        </div>
+      </header>
         {/* Top Img */}
         <div>
           <h1>Craft Code</h1>
@@ -43,4 +53,4 @@ class Home extends Component {
     )
   }
 }
-module.exports = Home;
+export default Home;
